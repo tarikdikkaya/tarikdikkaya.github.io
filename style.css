@@ -1,94 +1,98 @@
-head {
-    background-image: url("https://www.w3schools.com/w3images/forestbridge.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
 }
 
 header {
-    background-color: #333;
+    background-color: #003366;
     color: white;
-    padding: 30px;
-    margin: 5px;
     text-align: center;
-    font-family: Consolas, monospace;
-    font-size: 2em;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    padding: 20px;
 }
 
 
-h2,h1 {
-    background-color: #333;
-    color: white;
-    padding: 30px;
-    margin: 5px;
-    text-align: center;
-    font-family: Consolas, monospace;
-    font-size: 2.1em;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-    transition: transform 0.3s ease;
-    cursor: pointer;
-    user-select: none;
-    display: block;
-    position: relative;
-    width: 100%;
-    max-width: 400px;
-    transition: all 0.3s ease;
-}
-.header-container {
-    justify-content: space-between;
-    align-items: start;
-}
-
-h1:hover {
-    transform: scale(1.01);
-}
-h2:hover {
-    transform: scale(1.01);
-}
-
-.text-content {
-    display: none;
-}
-
-.text-content.active {
-    display: block;
-}
-
-.text-switcher {
-    list-style: none;
-    padding: 0;
-}
-
-.text-switcher li {
-    cursor: pointer;
-    margin-bottom: 5px;
-}
-
-p {
-    background-color: #5b5757;
-    color: white;
-    padding: 30px;
-    margin: 5px;
+h4 {
+    color: #ffffff;
     text-align: left;
-    font-family: Consolas, monospace;
-    font-size: 2em;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-    transition: transform 0.3s ease;
-    user-select: none;
-    display: block;
-    position: relative;
-    width: 100%;
-    transition: all 0.3s ease;
-    max-width: 94vw;
-}
-.header-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: start;
+    padding: 0;
+    font-size: 30px;
+    margin-bottom: 2px;
 }
 
-p:hover {
-    transform: scale(1.01);
+h3 {
+    color: #ffffff;
+    text-align: left;
+    padding: 0;
+    font-size: 22px;
+    margin-top: 10px;
+}
+
+.profile-container {
+    display: flex;
+    align-items: center;
+}
+
+.profile-photo {
+    width: 170px;
+    height: 170px;
+    border-radius: 10px;
+    border: 3px solid #333;
+    margin-right: 15px;
+    object-fit: cover;
+}
+
+
+nav ul {
+    background: #004080;
+    padding: 10px;
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li:hover {
+    background: #9a9696;
+    transition: all 0.3s ease;
+    border-radius: 5px;
+}
+
+nav ul li a {
+    margin:auto;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    width: 80%;
+    margin: 20px auto;
+    background: white;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background: #003366;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+nav b {
+    color: #003366;
+    cursor: pointer;
+}
+
+b:hover {
+    color: #828b94;
+    transition: all 0.3s ease;
 }
