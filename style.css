@@ -87,12 +87,12 @@ footer {
     margin-top: 20px;
 }
 
-nav b {
-    color: #003366;
+a {
+    color: #333;
+    text-decoration: none;
     cursor: pointer;
 }
 
-b:hover {
-    color: #828b94;
-    transition: all 0.3s ease;
-}
+a:hover {
+    color: #777779;
+}   
