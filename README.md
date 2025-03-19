@@ -1,12 +1,11 @@
-# ELE124 HW1  
----
-## 📌 Assignment Overview
+# ELE124 HW1
 
-### This repository contains my first homework assignment for **ELE124**.
 ---
+
 ## 📷 QR Code to the Website
-![QR Image](qr_to_website.png)
----
-## Link to the Website
-### https://tarikdikkaya.github.io
 
+## ![QR Image](qr_to_website.png)
+
+## Link to the Website
+
+### https://tarikdikkaya.github.io

@@ -99,3 +99,44 @@ a {
 a:hover {
     color: #777779;
 }   
+
+.divider {
+    height: 2px;
+    background-color: #ddd;
+    margin: 20px 0;
+    width: 100%;
+    border: none;
+    clear: both;
+}
+
+/* Variations */
+.divider-dark {
+    background-color: #003366;
+}
+
+.divider-dashed {
+    height: 1px;
+    background: repeating-linear-gradient(
+        to right,
+        #ddd,
+        #ddd 10px,
+        transparent 10px,
+        transparent 20px
+    );
+}
+
+.divider-dotted {
+    height: 1px;
+    background: repeating-linear-gradient(
+        to right,
+        #ddd,
+        #ddd 2px,
+        transparent 2px,
+        transparent 6px
+    );
+}
+
+.divider-fade {
+    height: 1px;
+    background: linear-gradient(to right, transparent, #003366, transparent);
+}
